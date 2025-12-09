@@ -4,18 +4,22 @@ A cutting-edge, full-stack restaurant website for Beer8 - Premium craft beer res
 
 ## 🚀 Features
 
+### Complete Full-Stack Application
 - **Full-stack TypeScript**: React + Vite frontend, Node.js + Express backend
-- **Multi-language Support**: Russian, Romanian, and English (i18next)
-- **Dark/Light Theme**: Automatic theme detection with manual override
-- **Custom Reservation System**: No third-party services
-- **Interactive Mini-Game**: Build your perfect beer & food combination
-- **QR Code Coupons**: Generated discount codes for combinations
-- **Admin Panel**: Complete CRUD operations for all resources
-- **Role-Based Access**: Owner, Administrator, Manager roles
-- **Secure Authentication**: JWT-based with bcrypt password hashing
-- **MySQL Database**: Comprehensive schema with 20+ tables
-- **Responsive Design**: Mobile-first approach with glassmorphism effects
-- **Three.js Loading Animation**: Beer tank filling animation
+- **Multi-language Support**: Russian, Romanian, and English (i18next) ✅
+- **Dark/Light Theme**: Automatic theme detection with manual override ✅
+- **Custom Reservation System**: Interactive calendar with zone selection ✅
+- **Shopping Cart**: Full cart functionality with session persistence ✅
+- **Coupon System**: QR code generation for discounts ✅
+- **Blog System**: Posts, categories, and comments ✅
+- **Gallery**: Masonry layout with lightbox viewer ✅
+- **User Profiles**: Reservations and coupons management ✅
+- **Admin Panel**: Complete CRUD operations (backend ready) 
+- **Role-Based Access**: Owner, Administrator, Manager roles ✅
+- **Secure Authentication**: JWT-based with bcrypt password hashing ✅
+- **MySQL Database**: Comprehensive schema with 20+ tables ✅
+- **Responsive Design**: Mobile-first approach with glassmorphism effects ✅
+- **SEO Optimized**: Meta tags and semantic HTML ✅
 
 ## 📋 Tech Stack
 
@@ -145,20 +149,39 @@ After running `npm run db:setup`, you can login with:
 
 ### Menu
 - `GET /api/menu/categories` - Get all categories
-- `GET /api/menu/items` - Get menu items (with filters)
-- `GET /api/menu/items/:id` - Get item details
+- `GET /api/menu/items` - Get menu items (with filters, search, sort)
+- `GET /api/menu/items/:id` - Get item details with allergens and pairings
 
 ### Reservations
 - `POST /api/reservations` - Create reservation
 - `GET /api/reservations/:id` - Get reservation details
-- `GET /api/reservations/user/:userId` - Get user reservations
+- `GET /api/reservations/user/my-reservations` - Get user reservations
+- `GET /api/reservations/zones` - Get available zones
+
+### Shopping Cart
+- `GET /api/cart` - Get cart items
+- `POST /api/cart/add` - Add item to cart
+- `PUT /api/cart/items/:id` - Update cart item quantity
+- `DELETE /api/cart/items/:id` - Remove item from cart
+- `DELETE /api/cart/clear` - Clear entire cart
+
+### Coupons
+- `POST /api/coupons/generate` - Generate new coupon with QR code
+- `GET /api/coupons/my-coupons` - Get user's coupons
+- `GET /api/coupons/validate/:code` - Validate coupon code
+- `POST /api/coupons/apply` - Apply coupon to order
+
+### Blog
+- `GET /api/blog/posts` - Get all posts (with pagination, search)
+- `GET /api/blog/posts/:slug` - Get specific post
+- `GET /api/blog/categories` - Get blog categories
+- `POST /api/blog/comments` - Add comment to post
 
 ### Admin (Protected)
 - `GET /api/admin/dashboard` - Dashboard stats
 - `CRUD /api/admin/menu` - Menu management
 - `CRUD /api/admin/reservations` - Reservations management
 - `CRUD /api/admin/users` - Users management
-- `CRUD /api/admin/coupons` - Coupons management
 
 ## 🎨 Design System
 
@@ -182,15 +205,16 @@ After running `npm run db:setup`, you can login with:
 
 ## 📱 Pages
 
-1. **Home** - Hero section, featured items, specials
-2. **Menu** - 18 categories with filtering and search
-3. **About** - Mission, history, team
-4. **Gallery** - Masonry layout with lightbox
-5. **Reservations** - Custom booking system
-6. **Contacts** - Map, contact form
-7. **Blog** - News and articles
-8. **Profile** - User dashboard, reservations, coupons
-9. **Admin Panel** - Complete management system
+1. **Home** - Hero section, featured items, specials carousel ✅
+2. **Menu** - 18 categories with filtering, search, sorting, grid/list view ✅
+3. **About** - Mission statement, history, team ✅
+4. **Gallery** - Masonry layout with lightbox and category filters ✅
+5. **Reservations** - Interactive calendar, zone selection, time slots ✅
+6. **Contacts** - Map integration, contact form, restaurant info ✅
+7. **Blog** - Posts with categories, featured posts, comments ✅
+8. **Profile** - User dashboard, reservations history, coupons with QR codes ✅
+9. **Login/Register** - Authentication with form validation ✅
+10. **Admin Panel** - Complete management system (backend ready)
 
 ## 🔒 Security Features
 
