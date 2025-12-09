@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "menu": "Meniu",
+    "about": "Despre noi",
+    "gallery": "Galerie",
+    "reservations": "Rezervări",
+    "contacts": "Contacte",
+    "blog": "Blog",
+    "login": "Autentificare",
+    "register": "Înregistrare",
+    "profile": "Profil",
+    "logout": "Ieșire"
+  },
+  "hero": {
+    "title": "Bine ați venit la Beer8",
+    "subtitle": "O lume nesfârșită de arome și emoții",
+    "cta": "Vezi meniul"
+  },
+  "about": {
+    "title": "Despre noi",
+    "mission": "Scopul nostru este să oferim oaspeților o lume nesfârșită de arome și emoții pe care le pot descoperi în hub-ul nostru. Beer8 își propune să schimbe percepția asupra berii și petrecerii timpului liber cultural. Credem că berea nu este doar o băutură, ci o întreagă lume de gusturi, arome și emoții. Misiunea noastră este să creăm un spațiu în care fiecare poate descoperi această lume, bucurându-se de o atmosferă primitoare, calitate înaltă și varietate de alegere. Ne străduim să devenim un simbol al unei noi abordări a fabricării berii și petrecerii timpului liber, făcând din bere nu doar o băutură, ci o parte a stilului de viață."
+  },
+  "menu": {
+    "title": "Meniu",
+    "search": "Căutare preparate...",
+    "filterByCategory": "Filtrare după categorie",
+    "allCategories": "Toate categoriile",
+    "sortBy": "Sortare",
+    "sortByName": "După nume",
+    "sortByPrice": "După preț",
+    "sortByPopular": "După popularitate",
+    "addToCart": "Adaugă în coș",
+    "viewDetails": "Detalii"
+  },
+  "categories": {
+    "cold_appetizers": "Aperitive reci",
+    "fried_with_hoppy": "Prăjit cu hamei",
+    "beer_companions": "Companioni de bere",
+    "salads": "Salate",
+    "gifts_of_ocean": "Daruri ale oceanului",
+    "burgers": "Burgeri",
+    "cauldron_of_flavors": "Cazan de arome",
+    "saute": "Sote",
+    "hosper": "Hosper",
+    "steaks": "Fripturi",
+    "meat_from_steppes": "Carne din stepe",
+    "fried_for_soul": "Prăjit pentru suflet",
+    "sauces": "Sosuri",
+    "desserts": "Deserturi",
+    "draft_beer": "Bere la draft",
+    "bottled_beer": "Bere la sticlă",
+    "alcohol": "Alcool",
+    "drinks": "Băuturi"
+  },
+  "reservations": {
+    "title": "Rezervare masă",
+    "selectDate": "Selectați data",
+    "selectTime": "Selectați ora",
+    "selectZone": "Selectați zona",
+    "numberOfGuests": "Număr de invitați",
+    "specialRequests": "Cerințe speciale",
+    "guestName": "Numele dumneavoastră",
+    "guestEmail": "Email",
+    "guestPhone": "Telefon",
+    "submit": "Rezervă",
+    "zones": {
+      "bar": "Bar",
+      "main_hall": "Sala principală",
+      "terrace": "Terasă"
+    }
+  },
+  "contacts": {
+    "title": "Contacte",
+    "address": "Adresă",
+    "phone": "Telefon",
+    "email": "Email",
+    "workingHours": "Program de lucru",
+    "sendMessage": "Trimite mesaj",
+    "yourName": "Numele dumneavoastră",
+    "yourEmail": "Email-ul dumneavoastră",
+    "yourMessage": "Mesajul dumneavoastră"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Parolă",
+    "confirmPassword": "Confirmați parola",
+    "firstName": "Prenume",
+    "lastName": "Nume",
+    "phone": "Telefon",
+    "rememberMe": "Ține-mă minte",
+    "forgotPassword": "Ați uitat parola?",
+    "loginButton": "Autentificare",
+    "registerButton": "Înregistrare",
+    "noAccount": "Nu aveți cont?",
+    "haveAccount": "Aveți deja cont?"
+  },
+  "profile": {
+    "title": "Profil",
+    "myInfo": "Informațiile mele",
+    "myReservations": "Rezervările mele",
+    "myCoupons": "Cupoanele mele",
+    "favorites": "Favorite",
+    "settings": "Setări"
+  },
+  "footer": {
+    "address": "Strada Conev 34, Bălți MD-3100, Moldova",
+    "phone": "+373 612 88 880",
+    "workingHours": "Lun–Dum 12:00–01:00",
+    "privacyPolicy": "Politica de confidențialitate",
+    "termsOfUse": "Termeni de utilizare",
+    "copyright": "Creat de Beer8 Team © 2025 Toate drepturile rezervate"
+  },
+  "common": {
+    "loading": "Se încarcă...",
+    "save": "Salvează",
+    "cancel": "Anulează",
+    "delete": "Șterge",
+    "edit": "Editează",
+    "close": "Închide",
+    "submit": "Trimite",
+    "search": "Căutare",
+    "filter": "Filtru",
+    "sort": "Sortare",
+    "currency": "MDL"
+  }
+}
