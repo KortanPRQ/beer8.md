@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="beerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D97706;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B45309;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Beer Mug Shape -->
+  <g id="mug">
+    <path d="M 60 80 L 60 140 Q 60 150 70 150 L 110 150 Q 120 150 120 140 L 120 80 Z" 
+          fill="url(#beerGradient)" stroke="#78716C" stroke-width="3"/>
+    <!-- Handle -->
+    <path d="M 120 90 Q 140 90 140 110 Q 140 130 120 130" 
+          fill="none" stroke="#78716C" stroke-width="3"/>
+    <!-- Foam -->
+    <ellipse cx="90" cy="80" rx="32" ry="12" fill="#FEF3C7" opacity="0.9"/>
+  </g>
+  
+  <!-- B8 Text -->
+  <text x="100" y="120" font-family="Arial, sans-serif" font-size="48" font-weight="bold" 
+        fill="#44403C" text-anchor="middle">B8</text>
+</svg>

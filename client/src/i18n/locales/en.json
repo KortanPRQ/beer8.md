@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "gallery": "Gallery",
+    "reservations": "Reservations",
+    "contacts": "Contacts",
+    "blog": "Blog",
+    "login": "Login",
+    "register": "Register",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "hero": {
+    "title": "Welcome to Beer8",
+    "subtitle": "An endless world of flavors and emotions",
+    "cta": "View Menu"
+  },
+  "about": {
+    "title": "About Us",
+    "mission": "Our goal is to give guests an endless world of flavors and emotions they can discover in our hub. Beer8 aims to change the perception of beer and cultural leisure. We believe that beer is not just a drink, but an entire world of tastes, aromas and emotions. Our mission is to create a space where everyone can discover this world, enjoying a cozy atmosphere, high quality and variety of choices. We strive to become a symbol of a new approach to brewing and leisure, making beer not just a drink, but part of a lifestyle."
+  },
+  "menu": {
+    "title": "Menu",
+    "search": "Search dishes...",
+    "filterByCategory": "Filter by category",
+    "allCategories": "All categories",
+    "sortBy": "Sort by",
+    "sortByName": "By name",
+    "sortByPrice": "By price",
+    "sortByPopular": "By popularity",
+    "addToCart": "Add to cart",
+    "viewDetails": "View details"
+  },
+  "categories": {
+    "cold_appetizers": "Cold appetizers",
+    "fried_with_hoppy": "Fried with hoppy",
+    "beer_companions": "Beer companions",
+    "salads": "Salads",
+    "gifts_of_ocean": "Gifts of the ocean",
+    "burgers": "Burgers",
+    "cauldron_of_flavors": "Cauldron of flavors",
+    "saute": "Sauté",
+    "hosper": "Hosper",
+    "steaks": "Steaks",
+    "meat_from_steppes": "Meat from the steppes",
+    "fried_for_soul": "Fried for the soul",
+    "sauces": "Sauces",
+    "desserts": "Desserts",
+    "draft_beer": "Draft beer",
+    "bottled_beer": "Bottled beer",
+    "alcohol": "Alcohol",
+    "drinks": "Drinks"
+  },
+  "reservations": {
+    "title": "Table Reservation",
+    "selectDate": "Select date",
+    "selectTime": "Select time",
+    "selectZone": "Select zone",
+    "numberOfGuests": "Number of guests",
+    "specialRequests": "Special requests",
+    "guestName": "Your name",
+    "guestEmail": "Email",
+    "guestPhone": "Phone",
+    "submit": "Reserve",
+    "zones": {
+      "bar": "Bar",
+      "main_hall": "Main hall",
+      "terrace": "Terrace"
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "workingHours": "Working hours",
+    "sendMessage": "Send message",
+    "yourName": "Your name",
+    "yourEmail": "Your email",
+    "yourMessage": "Your message"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "phone": "Phone",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "loginButton": "Login",
+    "registerButton": "Register",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?"
+  },
+  "profile": {
+    "title": "Profile",
+    "myInfo": "My information",
+    "myReservations": "My reservations",
+    "myCoupons": "My coupons",
+    "favorites": "Favorites",
+    "settings": "Settings"
+  },
+  "footer": {
+    "address": "Strada Conev 34, Bălți MD-3100, Moldova",
+    "phone": "+373 612 88 880",
+    "workingHours": "Mon–Sun 12:00–01:00",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "copyright": "Created by Beer8 Team © 2025 All rights reserved"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "currency": "MDL"
+  }
+}

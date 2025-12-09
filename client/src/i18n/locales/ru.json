@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Главная",
+    "menu": "Меню",
+    "about": "О нас",
+    "gallery": "Галерея",
+    "reservations": "Бронирование",
+    "contacts": "Контакты",
+    "blog": "Блог",
+    "login": "Войти",
+    "register": "Регистрация",
+    "profile": "Профиль",
+    "logout": "Выйти"
+  },
+  "hero": {
+    "title": "Добро пожаловать в Beer8",
+    "subtitle": "Бесконечный мир вкусов и эмоций",
+    "cta": "Смотреть меню"
+  },
+  "about": {
+    "title": "О нас",
+    "mission": "Наша цель - дать гостям бесконечный мир вкусов и эмоций, которые они могут открыть в нашем хабе. Beer8 стремится изменить восприятие пива и культурного досуга. Мы верим, что пиво - это не просто напиток, а целый мир вкусов, ароматов и эмоций. Наша миссия - создать пространство, где каждый сможет открыть для себя этот мир, наслаждаясь уютной атмосферой, высоким качеством и разнообразием выбора. Мы стремимся стать символом нового подхода к пивоварению и досугу, делая пиво не просто напитком, а частью образа жизни."
+  },
+  "menu": {
+    "title": "Меню",
+    "search": "Поиск блюд...",
+    "filterByCategory": "Фильтр по категории",
+    "allCategories": "Все категории",
+    "sortBy": "Сортировать",
+    "sortByName": "По названию",
+    "sortByPrice": "По цене",
+    "sortByPopular": "По популярности",
+    "addToCart": "В корзину",
+    "viewDetails": "Подробнее"
+  },
+  "categories": {
+    "cold_appetizers": "Холодные закуски",
+    "fried_with_hoppy": "Жареное с хмельным",
+    "beer_companions": "Спутники пива",
+    "salads": "Салаты",
+    "gifts_of_ocean": "Дары океана",
+    "burgers": "Бургеры",
+    "cauldron_of_flavors": "Котел вкусов",
+    "saute": "Соте",
+    "hosper": "Хоспер",
+    "steaks": "Стейки",
+    "meat_from_steppes": "Мясо из степей",
+    "fried_for_soul": "Жареное для души",
+    "sauces": "Соусы",
+    "desserts": "Десерты",
+    "draft_beer": "Разливное пиво",
+    "bottled_beer": "Бутылочное пиво",
+    "alcohol": "Алкоголь",
+    "drinks": "Напитки"
+  },
+  "reservations": {
+    "title": "Бронирование столика",
+    "selectDate": "Выберите дату",
+    "selectTime": "Выберите время",
+    "selectZone": "Выберите зону",
+    "numberOfGuests": "Количество гостей",
+    "specialRequests": "Особые пожелания",
+    "guestName": "Ваше имя",
+    "guestEmail": "Email",
+    "guestPhone": "Телефон",
+    "submit": "Забронировать",
+    "zones": {
+      "bar": "Бар",
+      "main_hall": "Основной зал",
+      "terrace": "Терраса"
+    }
+  },
+  "contacts": {
+    "title": "Контакты",
+    "address": "Адрес",
+    "phone": "Телефон",
+    "email": "Email",
+    "workingHours": "Часы работы",
+    "sendMessage": "Отправить сообщение",
+    "yourName": "Ваше имя",
+    "yourEmail": "Ваш email",
+    "yourMessage": "Ваше сообщение"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Пароль",
+    "confirmPassword": "Подтвердите пароль",
+    "firstName": "Имя",
+    "lastName": "Фамилия",
+    "phone": "Телефон",
+    "rememberMe": "Запомнить меня",
+    "forgotPassword": "Забыли пароль?",
+    "loginButton": "Войти",
+    "registerButton": "Зарегистрироваться",
+    "noAccount": "Нет аккаунта?",
+    "haveAccount": "Уже есть аккаунт?"
+  },
+  "profile": {
+    "title": "Профиль",
+    "myInfo": "Моя информация",
+    "myReservations": "Мои бронирования",
+    "myCoupons": "Мои купоны",
+    "favorites": "Избранное",
+    "settings": "Настройки"
+  },
+  "footer": {
+    "address": "Strada Conev 34, Bălți MD-3100, Moldova",
+    "phone": "+373 612 88 880",
+    "workingHours": "Пн–Вс 12:00–01:00",
+    "privacyPolicy": "Политика конфиденциальности",
+    "termsOfUse": "Условия использования",
+    "copyright": "Создано Beer8 Team © 2025 Все права защищены"
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "close": "Закрыть",
+    "submit": "Отправить",
+    "search": "Поиск",
+    "filter": "Фильтр",
+    "sort": "Сортировка",
+    "currency": "MDL"
+  }
+}
