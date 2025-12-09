@@ -56,14 +56,18 @@ app.get('/api/health', (req: Request, res: Response) => {
 import authRoutes from './routes/authRoutes';
 import menuRoutes from './routes/menuRoutes';
 import reservationRoutes from './routes/reservationRoutes';
+import couponRoutes from './routes/couponRoutes';
+import cartRoutes from './routes/cartRoutes';
+import blogRoutes from './routes/blogRoutes';
 
 // API Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/menu', menuRoutes);
 app.use('/api/reservations', reservationRoutes);
-// app.use('/api/coupons', couponRoutes);
+app.use('/api/coupons', couponRoutes);
+app.use('/api/cart', cartRoutes);
+app.use('/api/blog', blogRoutes);
 // app.use('/api/gallery', galleryRoutes);
-// app.use('/api/blog', blogRoutes);
 // app.use('/api/admin', adminRoutes);
 
 // Error handling middleware
